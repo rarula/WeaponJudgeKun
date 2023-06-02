@@ -13,6 +13,17 @@
     "text-brella": "Brella",
     "text-splatana": "Splatana",
 
+    "text-sub": "Sub",
+    "text-special": "Special",
+
+    "text-command-judge-des-0": "Randomly select a Weapon",
+    "text-command-judge-name-1": "type",
+    "text-command-judge-des-1": "Filter by selected Weapon",
+    "text-command-judge-name-2": "sub",
+    "text-command-judge-des-2": "Filter by selected Sub Weapon",
+    "text-command-judge-name-3": "special",
+    "text-command-judge-des-3": "Filter by selected Special Weapon",
+
     "sploosh-o-matic_0": "Sploosh-o-matic",
     "sploosh-o-matic_1": "Neo Sploosh-o-matic",
     "splattershot-jr_0": "Splattershot Jr.",
@@ -25,8 +36,8 @@
     "splattershot_1": "Tentatek Splattershot",
     "hero-shot-replica": "Hero Shot Replica",
     "52-gal": ".52 Gal",
-    "n-zap-0": "N-ZAP '85",
-    "n-zap-1": "N-ZAP '89",
+    "n-zap_0": "N-ZAP '85",
+    "n-zap_1": "N-ZAP '89",
     "splattershot-pro_0": "Splattershot Pro",
     "splattershot-pro_1": "Forge Splattershot Pro",
     "96-gal_0": ".96 Gal",

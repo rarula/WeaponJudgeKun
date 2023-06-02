@@ -15,7 +15,7 @@ const locales: Locales = {
  * @returns テキスト
  */
 export function locale(id: string, lang?: Language): string {
-    const useLang: Language = lang ? lang : 'en';
+    const useLang: Language = lang ? lang : 'ja';
 
     const ids = locales[useLang];
     if (!ids) {
