@@ -16,6 +16,8 @@
     "text-sub": "Sub",
     "text-special": "Special",
 
+    "text-judge": "に゙っ！",
+
     "text-command-judge-des-0": "Randomly select a Weapon",
     "text-command-judge-name-1": "type",
     "text-command-judge-des-1": "Filter by selected Weapon",
@@ -23,6 +25,8 @@
     "text-command-judge-des-2": "Filter by selected Sub Weapon",
     "text-command-judge-name-3": "special",
     "text-command-judge-des-3": "Filter by selected Special Weapon",
+
+    "text-command-judge-fail": "Command failed",
 
     "sploosh-o-matic_0": "Sploosh-o-matic",
     "sploosh-o-matic_1": "Neo Sploosh-o-matic",

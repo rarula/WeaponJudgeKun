@@ -232,22 +232,30 @@ export const JudgeCommand: Command = {
                 : [],
         );
 
-        await interaction.reply({
-            embeds: [
-                {
-                    title: locale(weapon.id),
-                    fields: [
-                        {
-                            name: `${locale('text-sub')}:`,
-                            value: locale(weapon.sub),
-                        },
-                        {
-                            name: `${locale('text-special')}:`,
-                            value: locale(weapon.special),
-                        },
-                    ],
-                },
-            ],
-        });
+        if (weapon) {
+            await interaction.reply({
+                content: locale('text-judge'),
+                embeds: [
+                    {
+                        title: locale(weapon.id),
+                        fields: [
+                            {
+                                name: `${locale('text-sub')}:`,
+                                value: locale(weapon.sub),
+                            },
+                            {
+                                name: `${locale('text-special')}:`,
+                                value: locale(weapon.special),
+                            },
+                        ],
+                    },
+                ],
+            });
+        } else {
+            await interaction.reply({
+                content: locale('text-command-judge-fail'),
+                ephemeral: true,
+            });
+        }
     },
 };

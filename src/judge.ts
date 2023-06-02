@@ -16,7 +16,7 @@ const WEAPONS = [
     ...SPLATANAS,
 ];
 
-export function judge(typeFilters: WeaponType[], subFilters: SubWeapon[], specialFilters: SpecialWeapon[]): Weapon {
+export function judge(typeFilters: WeaponType[], subFilters: SubWeapon[], specialFilters: SpecialWeapon[]): Weapon | undefined {
     const weapons = WEAPONS
         .filter((weapon) => {
             if (typeFilters.length === 0) {
