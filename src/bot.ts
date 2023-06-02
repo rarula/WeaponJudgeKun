@@ -1,6 +1,8 @@
 import { Client, REST, Routes } from 'discord.js';
 
+import { VERSION } from '.';
 import { JudgeCommand } from './commands';
+import { locale } from './locales';
 import { Command } from './types/Command';
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
@@ -19,6 +21,12 @@ const COMMANDS: Command[] = [
 
 export async function setupBot(): Promise<void> {
     await registerCommands();
+
+    CLIENT.on('ready', () => {
+        CLIENT.user?.setActivity({
+            name: `${locale('text-judge')} | ${VERSION} `,
+        });
+    });
 
     CLIENT.on('interactionCreate', async (interaction) => {
         if (!interaction.isChatInputCommand()) return;
