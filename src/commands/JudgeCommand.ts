@@ -6,6 +6,43 @@ import { SpecialWeapon, SubWeapon, Weapon, WeaponType } from '../types/Weapon';
 import { getRandomElem } from '../utils/array';
 import { BLASTERS, BRELLAS, BRUSHES, CHARGERS, DUALIES, ROLLERS, SHOOTERS, SLOSHERS, SPLATANAS, SPLATLINGS, STRINGERS } from '../weapons';
 
+const COLORS = [
+    0x1a1aae,
+    0xe38d24,
+    0xa0c937,
+    0xba30b0,
+    0xbecd41,
+    0x6325cd,
+    0xde6624,
+    0x343bc4,
+    0xcd510a,
+    0x6e04b6,
+    0xc12d74,
+    0x2cb721,
+    0x1bbeab,
+    0xc43a6e,
+    0x1ec0ad,
+    0xd74b31,
+    0xd0be08,
+    0x3a0ccd,
+    0xceb121,
+    0x9025c6,
+];
+
+const WEAPONS = [
+    ...SHOOTERS,
+    ...SPLATLINGS,
+    ...CHARGERS,
+    ...ROLLERS,
+    ...BLASTERS,
+    ...SLOSHERS,
+    ...DUALIES,
+    ...BRUSHES,
+    ...STRINGERS,
+    ...BRELLAS,
+    ...SPLATANAS,
+];
+
 export const JudgeCommand: Command = {
     command: new SlashCommandBuilder()
         .setName(
@@ -113,6 +150,7 @@ export const JudgeCommand: Command = {
                 embeds: [
                     {
                         title: locale(weapon.id),
+                        color: getRandomElem(COLORS),
                         fields: [
                             {
                                 name: `${locale('text-sub')}:`,
@@ -134,20 +172,6 @@ export const JudgeCommand: Command = {
         }
     },
 };
-
-const WEAPONS = [
-    ...SHOOTERS,
-    ...SPLATLINGS,
-    ...CHARGERS,
-    ...ROLLERS,
-    ...BLASTERS,
-    ...SLOSHERS,
-    ...DUALIES,
-    ...BRUSHES,
-    ...STRINGERS,
-    ...BRELLAS,
-    ...SPLATANAS,
-];
 
 function judge(typeFilters: WeaponType[], subFilters: SubWeapon[], specialFilters: SpecialWeapon[]): Weapon | undefined {
     const weapons = WEAPONS
