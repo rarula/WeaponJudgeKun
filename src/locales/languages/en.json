@@ -19,8 +19,8 @@
     "text-judge": "Meow!",
 
     "text-command-judge-des-0": "Randomly select a Weapon",
-    "text-command-judge-name-1": "type",
-    "text-command-judge-des-1": "Filter by selected Weapon",
+    "text-command-judge-name-1": "main",
+    "text-command-judge-des-1": "Filter by selected Main Weapon",
     "text-command-judge-name-2": "sub",
     "text-command-judge-des-2": "Filter by selected Sub Weapon",
     "text-command-judge-name-3": "special",

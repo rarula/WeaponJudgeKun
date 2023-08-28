@@ -19,11 +19,11 @@
     "text-judge": "に゙っ！",
 
     "text-command-judge-des-0": "ランダムにウェポンを選択します",
-    "text-command-judge-name-1": "種類",
-    "text-command-judge-des-1": "選択されたウェポンで絞り込みます",
-    "text-command-judge-name-2": "サブ",
+    "text-command-judge-name-1": "メインウェポン",
+    "text-command-judge-des-1": "選択されたメインウェポンで絞り込みます",
+    "text-command-judge-name-2": "サブウェポン",
     "text-command-judge-des-2": "選択されたサブウェポンで絞り込みます",
-    "text-command-judge-name-3": "スペシャル",
+    "text-command-judge-name-3": "スペシャルウェポン",
     "text-command-judge-des-3": "選択されたスペシャルウェポンで絞り込みます",
 
     "text-command-judge-fail": "に゙っ！（ウェポンを正常に選べなかったぞ）",
