@@ -51,9 +51,15 @@ export const CHARGERS: Weapon[] = [
     },
     {
         type: 'CHARGER',
-        id: 'goo-tuber',
+        id: 'goo-tuber_0',
         sub: 'torpedo',
         special: 'tenta-missiles',
+    },
+    {
+        type: 'CHARGER',
+        id: 'goo-tuber_1',
+        sub: 'fizzy-bomb',
+        special: 'ultra-stamp',
     },
     {
         type: 'CHARGER',

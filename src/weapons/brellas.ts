@@ -3,9 +3,15 @@ import { Weapon } from '../types/Weapon';
 export const BRELLAS: Weapon[] = [
     {
         type: 'BRELLA',
-        id: 'splat-brella',
+        id: 'splat-brella_0',
         sub: 'sprinkler',
         special: 'triple-inkstrike',
+    },
+    {
+        type: 'BRELLA',
+        id: 'splat-brella_1',
+        sub: 'autobomb',
+        special: 'inkjet',
     },
     {
         type: 'BRELLA',

@@ -15,9 +15,15 @@ export const BRUSHES: Weapon[] = [
     },
     {
         type: 'BRUSH',
-        id: 'octobrush',
+        id: 'octobrush_0',
         sub: 'suction-bomb',
         special: 'zipcaster',
+    },
+    {
+        type: 'BRUSH',
+        id: 'octobrush_1',
+        sub: 'squid-beakon',
+        special: 'ink-storm',
     },
     {
         type: 'BRUSH',

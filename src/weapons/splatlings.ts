@@ -33,14 +33,26 @@ export const SPLATLINGS: Weapon[] = [
     },
     {
         type: 'SPLATLING',
-        id: 'ballpoint-splatling',
+        id: 'ballpoint-splatling_0',
         sub: 'fizzy-bomb',
         special: 'inkjet',
+    },
+    {
+        type: 'SPLATLING',
+        id: 'ballpoint-splatling_1',
+        sub: 'ink-mine',
+        special: 'ink-vac',
     },
     {
         type: 'SPLATLING',
         id: 'nautilus',
         sub: 'point-sensor',
         special: 'ink-storm',
+    },
+    {
+        type: 'SPLATLING',
+        id: 'heavy-edit-splatling',
+        sub: 'curling-bomb',
+        special: 'tacticooler',
     },
 ];

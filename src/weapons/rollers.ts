@@ -27,9 +27,15 @@ export const ROLLERS: Weapon[] = [
     },
     {
         type: 'ROLLER',
-        id: 'dynamo-roller',
+        id: 'dynamo-roller_0',
         sub: 'sprinkler',
         special: 'tacticooler',
+    },
+    {
+        type: 'ROLLER',
+        id: 'dynamo-roller_1',
+        sub: 'splat-bomb',
+        special: 'super-chump',
     },
     {
         type: 'ROLLER',

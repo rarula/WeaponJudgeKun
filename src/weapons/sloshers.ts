@@ -27,20 +27,38 @@ export const SLOSHERS: Weapon[] = [
     },
     {
         type: 'SLOSHER',
-        id: 'sloshing-machine',
+        id: 'sloshing-machine_0',
         sub: 'fizzy-bomb',
         special: 'booyah-bomb',
     },
     {
         type: 'SLOSHER',
-        id: 'bloblobber',
+        id: 'sloshing-machine_1',
+        sub: 'point-sensor',
+        special: 'trizooka',
+    },
+    {
+        type: 'SLOSHER',
+        id: 'bloblobber_0',
         sub: 'sprinkler',
         special: 'ink-storm',
+    },
+    {
+        type: 'SLOSHER',
+        id: 'bloblobber_1',
+        sub: 'angle-shooter',
+        special: 'kraken-royale',
     },
     {
         type: 'SLOSHER',
         id: 'explosher',
         sub: 'point-sensor',
         special: 'ink-storm',
+    },
+    {
+        type: 'SLOSHER',
+        id: 'dread-wringer',
+        sub: 'suction-bomb',
+        special: 'reefslider',
     },
 ];

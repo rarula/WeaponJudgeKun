@@ -66,8 +66,10 @@ type Splatling =
     | 'heavy-splatling_0'
     | 'heavy-splatling_1'
     | 'hydra-splatling'
-    | 'ballpoint-splatling'
-    | 'nautilus';
+    | 'ballpoint-splatling_0'
+    | 'ballpoint-splatling_1'
+    | 'nautilus'
+    | 'heavy-edit-splatling';
 
 type Charger =
     | 'squiffer'
@@ -78,7 +80,8 @@ type Charger =
     | 'e-liter'
     | 'e-liter-scope'
     | 'bamboozler-14'
-    | 'goo-tuber'
+    | 'goo-tuber_0'
+    | 'goo-tuber_1'
     | 'snipewriter';
 
 type Roller =
@@ -86,7 +89,8 @@ type Roller =
     | 'carbon-roller_1'
     | 'splat-roller_0'
     | 'splat-roller_1'
-    | 'dynamo-roller'
+    | 'dynamo-roller_0'
+    | 'dynamo-roller_1'
     | 'flingza-roller'
     | 'big-swig-roller_0'
     | 'big-swig-roller_1';
@@ -109,9 +113,12 @@ type Slosher =
     | 'slosher_1'
     | 'tri-slosher_0'
     | 'tri-slosher_1'
-    | 'sloshing-machine'
-    | 'bloblobber'
-    | 'explosher';
+    | 'sloshing-machine_0'
+    | 'sloshing-machine_1'
+    | 'bloblobber_0'
+    | 'bloblobber_1'
+    | 'explosher'
+    | 'dread-wringer';
 
 type Dualie =
     | 'dapple-dualies_0'
@@ -126,15 +133,18 @@ type Dualie =
 type Brush =
     | 'inkbrush_0'
     | 'inkbrush_1'
-    | 'octobrush'
+    | 'octobrush_0'
+    | 'octobrush_1'
     | 'painbrush';
 
 type Stringer =
-    | 'tri-stringer'
+    | 'tri-stringer_0'
+    | 'tri-stringer_1'
     | 'reef-lux';
 
 type Brella =
-    | 'splat-brella'
+    | 'splat-brella_0'
+    | 'splat-brella_1'
     | 'tenta-brella_0'
     | 'tenta-brella_1'
     | 'undercover-brella';
