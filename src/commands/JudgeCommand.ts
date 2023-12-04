@@ -2,7 +2,6 @@ import { SlashCommandBuilder } from 'discord.js';
 
 import { locale } from '../locales';
 import { Command } from '../types/Command';
-import { Language } from '../types/Language';
 import { SpecialWeapon, SubWeapon, Weapon, WeaponType } from '../types/Weapon';
 import { getRandomElem } from '../utils/array';
 import { BLASTERS, BRELLAS, BRUSHES, CHARGERS, DUALIES, ROLLERS, SHOOTERS, SLOSHERS, SPLATANAS, SPLATLINGS, STRINGERS } from '../weapons';
@@ -117,27 +116,16 @@ export const JudgeCommand: Command = {
                     { name: locale('killer-wail-5.1'), value: 'killer-wail-5.1' },
                     { name: locale('kraken-royale'), value: 'kraken-royale' },
                     { name: locale('reefslider'), value: 'reefslider' },
+                    { name: locale('splattercolor-screen'), value: 'splattercolor-screen' },
                     { name: locale('super-chump'), value: 'super-chump' },
                     { name: locale('tacticooler'), value: 'tacticooler' },
                     { name: locale('tenta-missiles'), value: 'tenta-missiles' },
                     { name: locale('triple-inkstrike'), value: 'triple-inkstrike' },
+                    { name: locale('triple-splashdown'), value: 'triple-splashdown' },
                     { name: locale('trizooka'), value: 'trizooka' },
                     { name: locale('ultra-stamp'), value: 'ultra-stamp' },
                     { name: locale('wave-breaker'), value: 'wave-breaker' },
                     { name: locale('zipcaster'), value: 'zipcaster' },
-                )
-        )
-        .addStringOption((option) =>
-            option
-                .setName(
-                    locale('text-command-judge-name-4', 'en'),
-                )
-                .setDescription(
-                    locale('text-command-judge-des-4', 'en'),
-                )
-                .addChoices(
-                    { name: '日本語', value: 'ja' },
-                    { name: 'English', value: 'en' },
                 )
         ),
 
@@ -145,7 +133,6 @@ export const JudgeCommand: Command = {
         const main = interaction.options.get(locale('text-command-judge-name-1'))?.value as WeaponType | undefined;
         const sub = interaction.options.get(locale('text-command-judge-name-2'))?.value as SubWeapon | undefined;
         const special = interaction.options.get(locale('text-command-judge-name-3'))?.value as SpecialWeapon | undefined;
-        const language = (interaction.options.get(locale('text-command-judge-name-4', 'en'))?.value ?? 'ja') as Language;
 
         const weapon = judge(
             main ? [main] : [],
@@ -155,19 +142,22 @@ export const JudgeCommand: Command = {
 
         if (weapon) {
             await interaction.reply({
-                content: locale('text-judge', language),
+                content: locale('text-judge'),
                 embeds: [
                     {
-                        title: locale(weapon.id, language),
+                        title: locale(weapon.id),
                         color: getRandomElem(COLORS),
+                        thumbnail: {
+                            url: weapon.iconUrl,
+                        },
                         fields: [
                             {
-                                name: `${locale('text-sub', language)}:`,
-                                value: locale(weapon.sub, language),
+                                name: `${locale('text-sub')}:`,
+                                value: locale(weapon.sub),
                             },
                             {
-                                name: `${locale('text-special', language)}:`,
-                                value: locale(weapon.special, language),
+                                name: `${locale('text-special')}:`,
+                                value: locale(weapon.special),
                             },
                         ],
                     },
@@ -175,7 +165,7 @@ export const JudgeCommand: Command = {
             });
         } else {
             await interaction.reply({
-                content: locale('text-command-judge-fail', language),
+                content: locale('text-command-judge-fail'),
                 ephemeral: true,
             });
         }

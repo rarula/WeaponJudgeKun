@@ -3,6 +3,7 @@ export type Weapon = {
     id: MainWeapon;
     sub: SubWeapon;
     special: SpecialWeapon;
+    iconUrl: string;
 };
 
 export type WeaponType =
@@ -58,7 +59,8 @@ type Shooter =
     | 'l-3-nozzlenose_1'
     | 'h-3-nozzlenose_0'
     | 'h-3-nozzlenose_1'
-    | 'squeezer';
+    | 'squeezer_0'
+    | 'squeezer_1';
 
 type Splatling =
     | 'mini-splatling_0'
@@ -82,7 +84,8 @@ type Charger =
     | 'bamboozler-14'
     | 'goo-tuber_0'
     | 'goo-tuber_1'
-    | 'snipewriter';
+    | 'snipewriter_0'
+    | 'snipewriter_1';
 
 type Roller =
     | 'carbon-roller_0'
@@ -98,7 +101,8 @@ type Roller =
 type Blaster =
     | 'luna-blaster_0'
     | 'luna-blaster_1'
-    | 'blaster'
+    | 'blaster_0'
+    | 'blaster_1'
     | 'range-blaster'
     | 'clash-blaster_0'
     | 'clash-blaster_1'
@@ -106,7 +110,8 @@ type Blaster =
     | 'rapid-blaster_1'
     | 'rapid-blaster-pro_0'
     | 'rapid-blaster-pro_1'
-    | 's-blast';
+    | 's-blast_0'
+    | 's-blast_1';
 
 type Slosher =
     | 'slosher_0'
@@ -123,7 +128,8 @@ type Slosher =
 type Dualie =
     | 'dapple-dualies_0'
     | 'dapple-dualies_1'
-    | 'splat-dualies'
+    | 'splat-dualies_0'
+    | 'splat-dualies_1'
     | 'glooga-dualies'
     | 'dualie-squelchers_0'
     | 'dualie-squelchers_1'
@@ -135,22 +141,26 @@ type Brush =
     | 'inkbrush_1'
     | 'octobrush_0'
     | 'octobrush_1'
-    | 'painbrush';
+    | 'painbrush_0'
+    | 'painbrush_1';
 
 type Stringer =
     | 'tri-stringer_0'
     | 'tri-stringer_1'
-    | 'reef-lux';
+    | 'reef-lux_0'
+    | 'reef-lux_1';
 
 type Brella =
     | 'splat-brella_0'
     | 'splat-brella_1'
     | 'tenta-brella_0'
     | 'tenta-brella_1'
-    | 'undercover-brella';
+    | 'undercover-brella_0'
+    | 'undercover-brella_1';
 
 type Splatana =
-    | 'splatana-stamper'
+    | 'splatana-stamper_0'
+    | 'splatana-stamper_1'
     | 'splatana-wiper_0'
     | 'splatana-wiper_1';
 
@@ -180,10 +190,12 @@ export type SpecialWeapon =
     | 'killer-wail-5.1'
     | 'kraken-royale'
     | 'reefslider'
+    | 'splattercolor-screen'
     | 'super-chump'
     | 'tacticooler'
     | 'tenta-missiles'
     | 'triple-inkstrike'
+    | 'triple-splashdown'
     | 'trizooka'
     | 'ultra-stamp'
     | 'wave-breaker'
