@@ -29,4 +29,11 @@ export const SPLATANAS: Weapon[] = [
         special: 'tenta-missiles',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/4/4a/S3_Weapon_Main_Splatana_Wiper_Deco.png',
     },
+    {
+        type: 'SPLATANA',
+        id: 'order-splatana-replica',
+        sub: 'burst-bomb',
+        special: 'zipcaster',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/b/b9/S3_Weapon_Main_Order_Splatana_Replica.png',
+    },
 ];

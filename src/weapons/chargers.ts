@@ -85,4 +85,11 @@ export const CHARGERS: Weapon[] = [
         special: 'ink-storm',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/0/0a/S3_Weapon_Main_Snipewriter_5B.png',
     },
+    {
+        type: 'CHARGER',
+        id: 'order-charger-replica',
+        sub: 'splat-bomb',
+        special: 'ink-vac',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/0/00/S3_Weapon_Main_Order_Charger_Replica.png',
+    },
 ];

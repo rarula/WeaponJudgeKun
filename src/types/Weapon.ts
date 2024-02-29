@@ -60,7 +60,9 @@ type Shooter =
     | 'h-3-nozzlenose_0'
     | 'h-3-nozzlenose_1'
     | 'squeezer_0'
-    | 'squeezer_1';
+    | 'squeezer_1'
+    | 'order-shot-replica'
+    | 'octo-shot-replica';
 
 type Splatling =
     | 'mini-splatling_0'
@@ -71,7 +73,8 @@ type Splatling =
     | 'ballpoint-splatling_0'
     | 'ballpoint-splatling_1'
     | 'nautilus'
-    | 'heavy-edit-splatling';
+    | 'heavy-edit-splatling'
+    | 'order-splatling-replica';
 
 type Charger =
     | 'squiffer'
@@ -85,7 +88,8 @@ type Charger =
     | 'goo-tuber_0'
     | 'goo-tuber_1'
     | 'snipewriter_0'
-    | 'snipewriter_1';
+    | 'snipewriter_1'
+    | 'order-charger-replica';
 
 type Roller =
     | 'carbon-roller_0'
@@ -96,7 +100,8 @@ type Roller =
     | 'dynamo-roller_1'
     | 'flingza-roller'
     | 'big-swig-roller_0'
-    | 'big-swig-roller_1';
+    | 'big-swig-roller_1'
+    | 'order-roller-replica';
 
 type Blaster =
     | 'luna-blaster_0'
@@ -111,7 +116,8 @@ type Blaster =
     | 'rapid-blaster-pro_0'
     | 'rapid-blaster-pro_1'
     | 's-blast_0'
-    | 's-blast_1';
+    | 's-blast_1'
+    | 'order-blaster-replica';
 
 type Slosher =
     | 'slosher_0'
@@ -123,7 +129,8 @@ type Slosher =
     | 'bloblobber_0'
     | 'bloblobber_1'
     | 'explosher'
-    | 'dread-wringer';
+    | 'dread-wringer'
+    | 'order-slosher-replica';
 
 type Dualie =
     | 'dapple-dualies_0'
@@ -134,7 +141,8 @@ type Dualie =
     | 'dualie-squelchers_0'
     | 'dualie-squelchers_1'
     | 'tetra-dualies_0'
-    | 'tetra-dualies_1';
+    | 'tetra-dualies_1'
+    | 'order-dualie-replicas';
 
 type Brush =
     | 'inkbrush_0'
@@ -142,13 +150,15 @@ type Brush =
     | 'octobrush_0'
     | 'octobrush_1'
     | 'painbrush_0'
-    | 'painbrush_1';
+    | 'painbrush_1'
+    | 'orderbrush-replica';
 
 type Stringer =
     | 'tri-stringer_0'
     | 'tri-stringer_1'
     | 'reef-lux_0'
-    | 'reef-lux_1';
+    | 'reef-lux_1'
+    | 'order-stringer-replica';
 
 type Brella =
     | 'splat-brella_0'
@@ -156,13 +166,15 @@ type Brella =
     | 'tenta-brella_0'
     | 'tenta-brella_1'
     | 'undercover-brella_0'
-    | 'undercover-brella_1';
+    | 'undercover-brella_1'
+    | 'order-brella-replica';
 
 type Splatana =
     | 'splatana-stamper_0'
     | 'splatana-stamper_1'
     | 'splatana-wiper_0'
-    | 'splatana-wiper_1';
+    | 'splatana-wiper_1'
+    | 'order-splatana-replica';
 
 export type SubWeapon =
     | 'splat-bomb'

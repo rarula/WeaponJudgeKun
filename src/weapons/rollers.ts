@@ -64,4 +64,11 @@ export const ROLLERS: Weapon[] = [
         special: 'ink-storm',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/f/f7/S3_Weapon_Main_Big_Swig_Roller_Express.png',
     },
+    {
+        type: 'ROLLER',
+        id: 'order-roller-replica',
+        sub: 'curling-bomb',
+        special: 'big-bubbler',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/4/47/S3_Weapon_Main_Order_Roller_Replica.png',
+    },
 ];

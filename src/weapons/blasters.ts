@@ -92,4 +92,11 @@ export const BLASTERS: Weapon[] = [
         special: 'booyah-bomb',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/2f/S3_Weapon_Main_S-BLAST_%2791.png',
     },
+    {
+        type: 'BLASTER',
+        id: 'order-blaster-replica',
+        sub: 'splat-bomb',
+        special: 'zipcaster',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/7/7b/S3_Weapon_Main_Order_Blaster_Replica.png',
+    },
 ];

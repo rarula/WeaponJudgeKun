@@ -64,4 +64,11 @@ export const DUALIES: Weapon[] = [
         special: 'zipcaster',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/8/86/S3_Weapon_Main_Light_Tetra_Dualies.png',
     },
+    {
+        type: 'DUALIE',
+        id: 'order-dualie-replicas',
+        sub: 'suction-bomb',
+        special: 'crab-tank',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/5/50/S3_Weapon_Main_Order_Dualie_Replicas.png',
+    },
 ];

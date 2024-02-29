@@ -43,4 +43,11 @@ export const BRELLAS: Weapon[] = [
         special: 'splattercolor-screen',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/9/95/S3_Weapon_Main_Undercover_Sorella_Brella.png',
     },
+    {
+        type: 'BRELLA',
+        id: 'order-brella-replica',
+        sub: 'sprinkler',
+        special: 'triple-inkstrike',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/61/S3_Weapon_Main_Order_Brella_Replica.png',
+    },
 ];

@@ -43,4 +43,11 @@ export const BRUSHES: Weapon[] = [
         special: 'tenta-missiles',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/0/09/S3_Weapon_Main_Painbrush_Nouveau.png',
     },
+    {
+        type: 'BRUSH',
+        id: 'orderbrush-replica',
+        sub: 'suction-bomb',
+        special: 'zipcaster',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/0/0a/S3_Weapon_Main_Orderbrush_Replica.png',
+    },
 ];

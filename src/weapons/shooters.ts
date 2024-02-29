@@ -197,4 +197,18 @@ export const SHOOTERS: Weapon[] = [
         special: 'splattercolor-screen',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/4/49/S3_Weapon_Main_Foil_Squeezer.png',
     },
+    {
+        type: 'SHOOTER',
+        id: 'order-shot-replica',
+        sub: 'suction-bomb',
+        special: 'trizooka',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/e/e6/S3_Weapon_Main_Order_Shot_Replica.png',
+    },
+    {
+        type: 'SHOOTER',
+        id: 'octo-shot-replica',
+        sub: 'splat-bomb',
+        special: 'triple-inkstrike',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/2c/S3_Weapon_Main_Octo_Shot_Replica.png',
+    },
 ];

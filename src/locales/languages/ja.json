@@ -56,6 +56,8 @@
     "h-3-nozzlenose_1": "H3リールガンD",
     "squeezer_0": "ボトルガイザー",
     "squeezer_1": "ボトルガイザーフォイル",
+    "order-shot-replica": "オーダーシューターレプリカ",
+    "octo-shot-replica": "オクタシューターレプリカ",
 
     "mini-splatling_0": "スプラスピナー",
     "mini-splatling_1": "スプラスピナーコラボ",
@@ -66,6 +68,7 @@
     "ballpoint-splatling_1": "クーゲルシュライバー・ヒュー",
     "nautilus": "ノーチラス47",
     "heavy-edit-splatling": "イグザミナー",
+    "order-splatling-replica": "オーダースピナーレプリカ",
 
     "squiffer": "スクイックリンα",
     "splat-charger_0": "スプラチャージャー",
@@ -79,6 +82,7 @@
     "goo-tuber_1": "ソイチューバーカスタム",
     "snipewriter_0": "R-PEN/5H",
     "snipewriter_1": "R-PEN/5B",
+    "order-charger-replica": "オーダーチャージャーレプリカ",
 
     "carbon-roller_0": "カーボンローラー",
     "carbon-roller_1": "カーボンローラーデコ",
@@ -89,6 +93,7 @@
     "flingza-roller": "ヴァリアブルローラー",
     "big-swig-roller_0": "ワイドローラー",
     "big-swig-roller_1": "ワイドローラーコラボ",
+    "order-roller-replica": "オーダーローラーレプリカ",
 
     "luna-blaster_0": "ノヴァブラスター",
     "luna-blaster_1": "ノヴァブラスターネオ",
@@ -103,6 +108,7 @@
     "rapid-blaster-pro_1": "Rブラスターエリートデコ",
     "s-blast_0": "S-BLAST92",
     "s-blast_1": "S-BLAST91",
+    "order-blaster-replica": "オーダーブラスターレプリカ",
 
     "slosher_0": "バケットスロッシャー",
     "slosher_1": "バケットスロッシャーデコ",
@@ -114,6 +120,7 @@
     "bloblobber_1": "オーバーフロッシャーデコ",
     "explosher": "エクスプロッシャー",
     "dread-wringer": "モップリン",
+    "order-slosher-replica": "オーダースロッシャーレプリカ",
 
     "dapple-dualies_0": "スパッタリー",
     "dapple-dualies_1": "スパッタリー・ヒュー",
@@ -124,6 +131,7 @@
     "dualie-squelchers_1": "デュアルスイーパーカスタム",
     "tetra-dualies_0": "クアッドホッパーブラック",
     "tetra-dualies_1": "クアッドホッパーホワイト",
+    "order-dualie-replicas": "オーダーマニューバーレプリカ",
 
     "inkbrush_0": "パブロ",
     "inkbrush_1": "パブロ・ヒュー",
@@ -131,11 +139,13 @@
     "octobrush_1": "ホクサイ・ヒュー",
     "painbrush_0": "フィンセント",
     "painbrush_1": "フィンセント・ヒュー",
+    "orderbrush-replica": "オーダーブラシレプリカ",
 
     "tri-stringer_0": "トライストリンガー",
     "tri-stringer_1": "トライストリンガーコラボ",
     "reef-lux_0": "LACT-450",
     "reef-lux_1": "LACT-450デコ",
+    "order-stringer-replica": "オーダーストリンガーレプリカ",
 
     "splat-brella_0": "パラシェルター",
     "splat-brella_1": "パラシェルターソレーラ",
@@ -143,11 +153,13 @@
     "tenta-brella_1": "キャンピングシェルターソレーラ",
     "undercover-brella_0": "スパイガジェット",
     "undercover-brella_1": "スパイガジェットソレーラ",
+    "order-brella-replica": "オーダーシェルターレプリカ",
 
     "splatana-stamper_0": "ジムワイパー",
     "splatana-stamper_1": "ジムワイパー・ヒュー",
     "splatana-wiper_0": "ドライブワイパー",
     "splatana-wiper_1": "ドライブワイパーデコ",
+    "order-splatana-replica": "オーダーワイパーレプリカ",
 
     "splat-bomb": "スプラッシュボム",
     "suction-bomb": "キューバンボム",

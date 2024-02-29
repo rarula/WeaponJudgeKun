@@ -56,6 +56,8 @@
     "h-3-nozzlenose_1": "H-3 Nozzlenose D",
     "squeezer_0": "Squeezer",
     "squeezer_1": "Foil Squeezer",
+    "order-shot-replica": "Order Shot Replica",
+    "octo-shot-replica": "Octo Shot Replica",
 
     "mini-splatling_0": "Mini Splatling",
     "mini-splatling_1": "Zink Mini Splatling",
@@ -66,6 +68,7 @@
     "ballpoint-splatling_1": "Ballpoint Splatling Nouveau",
     "nautilus": "Nautilus 47",
     "heavy-edit-splatling": "Heavy Edit Splatling",
+    "order-splatling-replica": "Order Splatling Replica",
 
     "squiffer": "Classic Squiffer",
     "splat-charger_0": "Splat Charger",
@@ -79,6 +82,7 @@
     "goo-tuber_1": "Custom Goo Tuber",
     "snipewriter_0": "Snipewriter 5H",
     "snipewriter_1": "Snipewriter 5B",
+    "order-charger-replica": "Order Charger Replica",
 
     "carbon-roller_0": "Carbon Roller",
     "carbon-roller_1": "Carbon Roller Deco",
@@ -89,6 +93,7 @@
     "flingza-roller": "Flingza Roller",
     "big-swig-roller_0": "Big Swig Roller",
     "big-swig-roller_1": "Big Swig Roller Express",
+    "order-roller-replica": "Order Roller Replica",
 
     "luna-blaster_0": "Luna Blaster",
     "luna-blaster_1": "Luna Blaster Neo",
@@ -103,6 +108,7 @@
     "rapid-blaster-pro_1": "Rapid Blaster Pro Deco",
     "s-blast_0": "S-BLAST '92",
     "s-blast_1": "S-BLAST '91",
+    "order-blaster-replica": "Order Blaster Replica",
 
     "slosher_0": "Slosher",
     "slosher_1": "Slosher Deco",
@@ -114,6 +120,7 @@
     "bloblobber_1": "Bloblobber Deco",
     "explosher": "Explosher",
     "dread-wringer": "Dread Wringer",
+    "order-slosher-replica": "Order Slosher Replica",
 
     "dapple-dualies_0": "Dapple Dualies",
     "dapple-dualies_1": "Dapple Dualies Nouveau",
@@ -124,6 +131,7 @@
     "dualie-squelchers_1": "Custom Dualie Squelchers",
     "tetra-dualies_0": "Dark Tetra Dualies",
     "tetra-dualies_1": "Light Tetra Dualies",
+    "order-dualie-replicas": "Order Dualie Replicas",
 
     "inkbrush_0": "Inkbrush",
     "inkbrush_1": "Inkbrush Nouveau",
@@ -131,11 +139,13 @@
     "octobrush_1": "Octobrush Nouveau",
     "painbrush_0": "Painbrush",
     "painbrush_1": "Painbrush Nouveau",
+    "orderbrush-replica": "Orderbrush Replica",
 
     "tri-stringer_0": "Tri-Stringer",
     "tri-stringer_1": "Inkline Tri-Stringer",
     "reef-lux_0": "REEF-LUX 450",
     "reef-lux_1": "REEF-LUX 450 Deco",
+    "order-stringer-replica": "Order Stringer Replica",
 
     "splat-brella_0": "Splat Brella",
     "splat-brella_1": "Sorella Brella",
@@ -143,11 +153,13 @@
     "tenta-brella_1": "Tenta Sorella Brella",
     "undercover-brella_0": "Undercover Brella",
     "undercover-brella_1": "Undercover Sorella Brella",
+    "order-brella-replica": "Order Brella Replica",
 
     "splatana-stamper_0": "Splatana Stamper",
     "splatana-stamper_1": "Neo Splatana Stamper",
     "splatana-wiper_0": "Splatana Wiper",
     "splatana-wiper_1": "Splatana Wiper Deco",
+    "order-splatana-replica": "Order Splatana Replica",
 
     "splat-bomb": "Splat Bomb",
     "suction-bomb": "Suction Bomb",

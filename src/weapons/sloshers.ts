@@ -71,4 +71,11 @@ export const SLOSHERS: Weapon[] = [
         special: 'reefslider',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/6c/S3_Weapon_Main_Dread_Wringer.png',
     },
+    {
+        type: 'SLOSHER',
+        id: 'order-slosher-replica',
+        sub: 'splat-bomb',
+        special: 'triple-inkstrike',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/a/aa/S3_Weapon_Main_Order_Slosher_Replica.png',
+    },
 ];

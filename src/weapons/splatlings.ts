@@ -64,4 +64,11 @@ export const SPLATLINGS: Weapon[] = [
         special: 'tacticooler',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/24/S3_Weapon_Main_Heavy_Edit_Splatling.png',
     },
+    {
+        type: 'SPLATLING',
+        id: 'order-splatling-replica',
+        sub: 'sprinkler',
+        special: 'wave-breaker',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/c/ce/S3_Weapon_Main_Order_Splatling_Replica.png',
+    },
 ];

@@ -29,4 +29,11 @@ export const STRINGERS: Weapon[] = [
         special: 'reefslider',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/a/ab/S3_Weapon_Main_REEF-LUX_450_Deco.png',
     },
+    {
+        type: 'STRINGER',
+        id: 'order-stringer-replica',
+        sub: 'toxic-mist',
+        special: 'killer-wail-5.1',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/24/S3_Weapon_Main_Order_Stringer_Replica.png',
+    },
 ];
