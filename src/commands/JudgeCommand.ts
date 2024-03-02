@@ -100,11 +100,11 @@ export const JudgeCommand: Command = {
         ),
 
     execute: async (interaction) => {
-        const mainWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-0.name'))] ?? []) as WeaponType[];
-        const subWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-1.name'))] ?? []) as SubWeapon[];
-        const specialWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-2.name'))] ?? []) as SpecialWeapon[];
+        const mainWeaponTypes = interaction.options.getString(locale('text.command.judge.question-0.name')) as WeaponType | null;
+        const subWeaponTypes = interaction.options.getString(locale('text.command.judge.question-1.name')) as SubWeapon | null;
+        const specialWeaponTypes = interaction.options.getString(locale('text.command.judge.question-2.name')) as SpecialWeapon | null;
 
-        const weapon = judge(mainWeaponTypes, subWeaponTypes, specialWeaponTypes);
+        const weapon = judge(mainWeaponTypes ? [mainWeaponTypes] : [], subWeaponTypes ? [subWeaponTypes] : [], specialWeaponTypes ? [specialWeaponTypes] : []);
 
         if (weapon) {
             await interaction.reply({
