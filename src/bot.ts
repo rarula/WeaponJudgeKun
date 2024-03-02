@@ -24,7 +24,7 @@ export async function setupBot(): Promise<void> {
 
     CLIENT.on('ready', () => {
         CLIENT.user?.setActivity({
-            name: `${locale('text-judge')} | ${VERSION} `,
+            name: `${locale('text.judge')} | ${VERSION} `,
         });
     });
 

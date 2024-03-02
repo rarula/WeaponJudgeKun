@@ -49,90 +49,90 @@ export const JudgeCommand: Command = {
             'judge',
         )
         .setDescription(
-            locale('text-command-judge-des-0'),
+            locale('text.command.judge.description'),
         )
         .addStringOption((option) =>
             option
                 .setName(
-                    locale('text-command-judge-name-1'),
+                    locale('text.command.judge.question-0.name'),
                 )
                 .setDescription(
-                    locale('text-command-judge-des-1'),
+                    locale('text.command.judge.question-0.description'),
                 )
                 .addChoices(
-                    { name: locale('text-shooter'), value: 'SHOOTER' },
-                    { name: locale('text-splatling'), value: 'SPLATLING' },
-                    { name: locale('text-charger'), value: 'CHARGER' },
-                    { name: locale('text-roller'), value: 'ROLLER' },
-                    { name: locale('text-blaster'), value: 'BLASTER' },
-                    { name: locale('text-slosher'), value: 'SLOSHER' },
-                    { name: locale('text-dualie'), value: 'DUALIE' },
-                    { name: locale('text-brush'), value: 'BRUSH' },
-                    { name: locale('text-stringer'), value: 'STRINGER' },
-                    { name: locale('text-brella'), value: 'BRELLA' },
-                    { name: locale('text-splatana'), value: 'SPLATANA' },
-                )
-        )
-        .addStringOption((option) =>
-            option
-                .setName(
-                    locale('text-command-judge-name-2'),
-                )
-                .setDescription(
-                    locale('text-command-judge-des-2'),
-                )
-                .addChoices(
-                    { name: locale('splat-bomb'), value: 'splat-bomb' },
-                    { name: locale('suction-bomb'), value: 'suction-bomb' },
-                    { name: locale('burst-bomb'), value: 'burst-bomb' },
-                    { name: locale('curling-bomb'), value: 'curling-bomb' },
-                    { name: locale('autobomb'), value: 'autobomb' },
-                    { name: locale('ink-mine'), value: 'ink-mine' },
-                    { name: locale('toxic-mist'), value: 'toxic-mist' },
-                    { name: locale('point-sensor'), value: 'point-sensor' },
-                    { name: locale('splash-wall'), value: 'splash-wall' },
-                    { name: locale('sprinkler'), value: 'sprinkler' },
-                    { name: locale('squid-beakon'), value: 'squid-beakon' },
-                    { name: locale('fizzy-bomb'), value: 'fizzy-bomb' },
-                    { name: locale('torpedo'), value: 'torpedo' },
-                    { name: locale('angle-shooter'), value: 'angle-shooter' },
+                    { name: locale('text.shooter'), value: 'SHOOTER' },
+                    { name: locale('text.splatling'), value: 'SPLATLING' },
+                    { name: locale('text.charger'), value: 'CHARGER' },
+                    { name: locale('text.roller'), value: 'ROLLER' },
+                    { name: locale('text.blaster'), value: 'BLASTER' },
+                    { name: locale('text.slosher'), value: 'SLOSHER' },
+                    { name: locale('text.dualie'), value: 'DUALIE' },
+                    { name: locale('text.brush'), value: 'BRUSH' },
+                    { name: locale('text.stringer'), value: 'STRINGER' },
+                    { name: locale('text.brella'), value: 'BRELLA' },
+                    { name: locale('text.splatana'), value: 'SPLATANA' },
                 )
         )
         .addStringOption((option) =>
             option
                 .setName(
-                    locale('text-command-judge-name-3'),
+                    locale('text.command.judge.question-1.name'),
                 )
                 .setDescription(
-                    locale('text-command-judge-des-3'),
+                    locale('text.command.judge.question-1.description'),
                 )
                 .addChoices(
-                    { name: locale('big-bubbler'), value: 'big-bubbler' },
-                    { name: locale('booyah-bomb'), value: 'booyah-bomb' },
-                    { name: locale('crab-tank'), value: 'crab-tank' },
-                    { name: locale('ink-storm'), value: 'ink-storm' },
-                    { name: locale('ink-vac'), value: 'ink-vac' },
-                    { name: locale('inkjet'), value: 'inkjet' },
-                    { name: locale('killer-wail-5.1'), value: 'killer-wail-5.1' },
-                    { name: locale('kraken-royale'), value: 'kraken-royale' },
-                    { name: locale('reefslider'), value: 'reefslider' },
-                    { name: locale('splattercolor-screen'), value: 'splattercolor-screen' },
-                    { name: locale('super-chump'), value: 'super-chump' },
-                    { name: locale('tacticooler'), value: 'tacticooler' },
-                    { name: locale('tenta-missiles'), value: 'tenta-missiles' },
-                    { name: locale('triple-inkstrike'), value: 'triple-inkstrike' },
-                    { name: locale('triple-splashdown'), value: 'triple-splashdown' },
-                    { name: locale('trizooka'), value: 'trizooka' },
-                    { name: locale('ultra-stamp'), value: 'ultra-stamp' },
-                    { name: locale('wave-breaker'), value: 'wave-breaker' },
-                    { name: locale('zipcaster'), value: 'zipcaster' },
+                    { name: locale('sub-weapon.splat-bomb'), value: 'splat-bomb' },
+                    { name: locale('sub-weapon.suction-bomb'), value: 'suction-bomb' },
+                    { name: locale('sub-weapon.burst-bomb'), value: 'burst-bomb' },
+                    { name: locale('sub-weapon.curling-bomb'), value: 'curling-bomb' },
+                    { name: locale('sub-weapon.autobomb'), value: 'autobomb' },
+                    { name: locale('sub-weapon.ink-mine'), value: 'ink-mine' },
+                    { name: locale('sub-weapon.toxic-mist'), value: 'toxic-mist' },
+                    { name: locale('sub-weapon.point-sensor'), value: 'point-sensor' },
+                    { name: locale('sub-weapon.splash-wall'), value: 'splash-wall' },
+                    { name: locale('sub-weapon.sprinkler'), value: 'sprinkler' },
+                    { name: locale('sub-weapon.squid-beakon'), value: 'squid-beakon' },
+                    { name: locale('sub-weapon.fizzy-bomb'), value: 'fizzy-bomb' },
+                    { name: locale('sub-weapon.torpedo'), value: 'torpedo' },
+                    { name: locale('sub-weapon.angle-shooter'), value: 'angle-shooter' },
+                )
+        )
+        .addStringOption((option) =>
+            option
+                .setName(
+                    locale('text.command.judge.question-2.name'),
+                )
+                .setDescription(
+                    locale('text.command.judge.question-2.description'),
+                )
+                .addChoices(
+                    { name: locale('special-weapon.big-bubbler'), value: 'big-bubbler' },
+                    { name: locale('special-weapon.booyah-bomb'), value: 'booyah-bomb' },
+                    { name: locale('special-weapon.crab-tank'), value: 'crab-tank' },
+                    { name: locale('special-weapon.ink-storm'), value: 'ink-storm' },
+                    { name: locale('special-weapon.ink-vac'), value: 'ink-vac' },
+                    { name: locale('special-weapon.inkjet'), value: 'inkjet' },
+                    { name: locale('special-weapon.killer-wail-5.1'), value: 'killer-wail-5.1' },
+                    { name: locale('special-weapon.kraken-royale'), value: 'kraken-royale' },
+                    { name: locale('special-weapon.reefslider'), value: 'reefslider' },
+                    { name: locale('special-weapon.splattercolor-screen'), value: 'splattercolor-screen' },
+                    { name: locale('special-weapon.super-chump'), value: 'super-chump' },
+                    { name: locale('special-weapon.tacticooler'), value: 'tacticooler' },
+                    { name: locale('special-weapon.tenta-missiles'), value: 'tenta-missiles' },
+                    { name: locale('special-weapon.triple-inkstrike'), value: 'triple-inkstrike' },
+                    { name: locale('special-weapon.triple-splashdown'), value: 'triple-splashdown' },
+                    { name: locale('special-weapon.trizooka'), value: 'trizooka' },
+                    { name: locale('special-weapon.ultra-stamp'), value: 'ultra-stamp' },
+                    { name: locale('special-weapon.wave-breaker'), value: 'wave-breaker' },
+                    { name: locale('special-weapon.zipcaster'), value: 'zipcaster' },
                 )
         ),
 
     execute: async (interaction) => {
-        const main = interaction.options.get(locale('text-command-judge-name-1'))?.value as WeaponType | undefined;
-        const sub = interaction.options.get(locale('text-command-judge-name-2'))?.value as SubWeapon | undefined;
-        const special = interaction.options.get(locale('text-command-judge-name-3'))?.value as SpecialWeapon | undefined;
+        const main = interaction.options.get(locale('text.command.judge.question-0.name'))?.value as WeaponType | undefined;
+        const sub = interaction.options.get(locale('text.command.judge.question-1.name'))?.value as SubWeapon | undefined;
+        const special = interaction.options.get(locale('text.command.judge.question-2.name'))?.value as SpecialWeapon | undefined;
 
         const weapon = judge(
             main ? [main] : [],
@@ -142,22 +142,22 @@ export const JudgeCommand: Command = {
 
         if (weapon) {
             await interaction.reply({
-                content: locale('text-judge'),
+                content: locale('text.judge'),
                 embeds: [
                     {
-                        title: locale(weapon.id),
+                        title: locale('main-weapon.' + weapon.id),
                         color: getRandomElem(COLORS),
                         thumbnail: {
                             url: weapon.iconUrl,
                         },
                         fields: [
                             {
-                                name: `${locale('text-sub')}:`,
-                                value: locale(weapon.sub),
+                                name: `${locale('text.sub')}:`,
+                                value: locale('sub-weapon.' + weapon.sub),
                             },
                             {
-                                name: `${locale('text-special')}:`,
-                                value: locale(weapon.special),
+                                name: `${locale('text.special')}:`,
+                                value: locale('special-weapon.' + weapon.special),
                             },
                         ],
                     },
@@ -165,7 +165,7 @@ export const JudgeCommand: Command = {
             });
         } else {
             await interaction.reply({
-                content: locale('text-command-judge-fail'),
+                content: locale('text.command.judge.fail'),
                 ephemeral: true,
             });
         }
