@@ -59,17 +59,31 @@ export const SLOSHERS: Weapon[] = [
     },
     {
         type: 'SLOSHER',
-        id: 'explosher',
+        id: 'explosher_0',
         sub: 'point-sensor',
         special: 'ink-storm',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/de/S3_Weapon_Main_Explosher.png',
     },
     {
         type: 'SLOSHER',
-        id: 'dread-wringer',
+        id: 'explosher_1',
+        sub: 'splash-wall',
+        special: 'triple-splashdown',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/6e/S3_Weapon_Main_Custom_Explosher.png',
+    },
+    {
+        type: 'SLOSHER',
+        id: 'dread-wringer_0',
         sub: 'suction-bomb',
         special: 'reefslider',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/6c/S3_Weapon_Main_Dread_Wringer.png',
+    },
+    {
+        type: 'SLOSHER',
+        id: 'dread-wringer_1',
+        sub: 'squid-beakon',
+        special: 'wave-breaker',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/d2/S3_Weapon_Main_Dread_Wringer_D.png',
     },
     {
         type: 'SLOSHER',

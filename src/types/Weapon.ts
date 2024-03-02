@@ -44,7 +44,8 @@ type Shooter =
     | 'splattershot_0'
     | 'splattershot_1'
     | 'hero-shot-replica'
-    | '52-gal'
+    | '52-gal_0'
+    | '52-gal_1'
     | 'n-zap_0'
     | 'n-zap_1'
     | 'splattershot-pro_0'
@@ -72,18 +73,22 @@ type Splatling =
     | 'hydra-splatling'
     | 'ballpoint-splatling_0'
     | 'ballpoint-splatling_1'
-    | 'nautilus'
+    | 'nautilus_0'
+    | 'nautilus_1'
     | 'heavy-edit-splatling'
     | 'order-splatling-replica';
 
 type Charger =
-    | 'squiffer'
+    | 'squiffer_0'
+    | 'squiffer_1'
     | 'splat-charger_0'
     | 'splat-charger_1'
     | 'splatterscope_0'
     | 'splatterscope_1'
-    | 'e-liter'
-    | 'e-liter-scope'
+    | 'e-liter_0'
+    | 'e-liter_1'
+    | 'e-liter-scope_0'
+    | 'e-liter-scope_1'
     | 'bamboozler-14'
     | 'goo-tuber_0'
     | 'goo-tuber_1'
@@ -98,7 +103,8 @@ type Roller =
     | 'splat-roller_1'
     | 'dynamo-roller_0'
     | 'dynamo-roller_1'
-    | 'flingza-roller'
+    | 'flingza-roller_0'
+    | 'flingza-roller_1'
     | 'big-swig-roller_0'
     | 'big-swig-roller_1'
     | 'order-roller-replica';
@@ -128,8 +134,10 @@ type Slosher =
     | 'sloshing-machine_1'
     | 'bloblobber_0'
     | 'bloblobber_1'
-    | 'explosher'
-    | 'dread-wringer'
+    | 'explosher_0'
+    | 'explosher_1'
+    | 'dread-wringer_0'
+    | 'dread-wringer_1'
     | 'order-slosher-replica';
 
 type Dualie =
@@ -137,12 +145,14 @@ type Dualie =
     | 'dapple-dualies_1'
     | 'splat-dualies_0'
     | 'splat-dualies_1'
-    | 'glooga-dualies'
+    | 'glooga-dualies_0'
+    | 'glooga-dualies_1'
     | 'dualie-squelchers_0'
     | 'dualie-squelchers_1'
     | 'tetra-dualies_0'
     | 'tetra-dualies_1'
-    | 'order-dualie-replicas';
+    | 'order-dualie-replicas'
+    | 'douser-dualies';
 
 type Brush =
     | 'inkbrush_0'
@@ -167,7 +177,8 @@ type Brella =
     | 'tenta-brella_1'
     | 'undercover-brella_0'
     | 'undercover-brella_1'
-    | 'order-brella-replica';
+    | 'order-brella-replica'
+    | 'recycled-brella';
 
 type Splatana =
     | 'splatana-stamper_0'

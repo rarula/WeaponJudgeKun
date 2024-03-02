@@ -45,10 +45,17 @@ export const ROLLERS: Weapon[] = [
     },
     {
         type: 'ROLLER',
-        id: 'flingza-roller',
+        id: 'flingza-roller_0',
         sub: 'ink-mine',
         special: 'tenta-missiles',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/d2/S3_Weapon_Main_Flingza_Roller.png',
+    },
+    {
+        type: 'ROLLER',
+        id: 'flingza-roller_1',
+        sub: 'suction-bomb',
+        special: 'splattercolor-screen',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/8/8c/S3_Weapon_Main_Foil_Flingza_Roller.png',
     },
     {
         type: 'ROLLER',

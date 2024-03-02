@@ -50,4 +50,11 @@ export const BRELLAS: Weapon[] = [
         special: 'triple-inkstrike',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/61/S3_Weapon_Main_Order_Brella_Replica.png',
     },
+    {
+        type: 'BRELLA',
+        id: 'recycled-brella',
+        sub: 'angle-shooter',
+        special: 'big-bubbler',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/d0/S3_Weapon_Main_Recycled_Brella_24_Mk_I.png',
+    },
 ];

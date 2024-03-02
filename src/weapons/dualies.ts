@@ -31,10 +31,17 @@ export const DUALIES: Weapon[] = [
     },
     {
         type: 'DUALIE',
-        id: 'glooga-dualies',
+        id: 'glooga-dualies_0',
         sub: 'splash-wall',
         special: 'booyah-bomb',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/9/99/S3_Weapon_Main_Glooga_Dualies.png',
+    },
+    {
+        type: 'DUALIE',
+        id: 'glooga-dualies_1',
+        sub: 'point-sensor',
+        special: 'trizooka',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/5/56/S3_Weapon_Main_Glooga_Dualies_Deco.png',
     },
     {
         type: 'DUALIE',
@@ -70,5 +77,12 @@ export const DUALIES: Weapon[] = [
         sub: 'suction-bomb',
         special: 'crab-tank',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/5/50/S3_Weapon_Main_Order_Dualie_Replicas.png',
+    },
+    {
+        type: 'DUALIE',
+        id: 'douser-dualies',
+        sub: 'ink-mine',
+        special: 'killer-wail-5.1',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/2c/S3_Weapon_Main_Douser_Dualies_FF.png',
     },
 ];

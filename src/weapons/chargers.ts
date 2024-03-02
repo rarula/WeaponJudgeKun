@@ -3,10 +3,17 @@ import { Weapon } from '../types/Weapon';
 export const CHARGERS: Weapon[] = [
     {
         type: 'CHARGER',
-        id: 'squiffer',
+        id: 'squiffer_0',
         sub: 'point-sensor',
         special: 'big-bubbler',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/3/3c/S3_Weapon_Main_Classic_Squiffer.png',
+    },
+    {
+        type: 'CHARGER',
+        id: 'squiffer_1',
+        sub: 'autobomb',
+        special: 'zipcaster',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/8/80/S3_Weapon_Main_New_Squiffer.png',
     },
     {
         type: 'CHARGER',
@@ -38,17 +45,31 @@ export const CHARGERS: Weapon[] = [
     },
     {
         type: 'CHARGER',
-        id: 'e-liter',
+        id: 'e-liter_0',
         sub: 'ink-mine',
         special: 'wave-breaker',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/1/10/S3_Weapon_Main_E-liter_4K.png',
     },
     {
         type: 'CHARGER',
-        id: 'e-liter-scope',
+        id: 'e-liter_1',
+        sub: 'squid-beakon',
+        special: 'kraken-royale',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/e/e6/S3_Weapon_Main_Custom_E-liter_4K.png',
+    },
+    {
+        type: 'CHARGER',
+        id: 'e-liter-scope_0',
         sub: 'ink-mine',
         special: 'wave-breaker',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/e/eb/S3_Weapon_Main_E-liter_4K_Scope.png',
+    },
+    {
+        type: 'CHARGER',
+        id: 'e-liter-scope_1',
+        sub: 'squid-beakon',
+        special: 'kraken-royale',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/7/7c/S3_Weapon_Main_Custom_E-liter_4K_Scope.png',
     },
     {
         type: 'CHARGER',

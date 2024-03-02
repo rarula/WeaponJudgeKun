@@ -52,10 +52,17 @@ export const SPLATLINGS: Weapon[] = [
     },
     {
         type: 'SPLATLING',
-        id: 'nautilus',
+        id: 'nautilus_0',
         sub: 'point-sensor',
         special: 'ink-storm',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/8/81/S3_Weapon_Main_Nautilus_47.png',
+    },
+    {
+        type: 'SPLATLING',
+        id: 'nautilus_1',
+        sub: 'suction-bomb',
+        special: 'triple-splashdown',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/8/81/S3_Weapon_Main_Nautilus_79.png',
     },
     {
         type: 'SPLATLING',

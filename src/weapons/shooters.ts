@@ -80,10 +80,17 @@ export const SHOOTERS: Weapon[] = [
     },
     {
         type: 'SHOOTER',
-        id: '52-gal',
+        id: '52-gal_0',
         sub: 'splash-wall',
         special: 'killer-wail-5.1',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/e/ed/S3_Weapon_Main_.52_Gal.png',
+    },
+    {
+        type: 'SHOOTER',
+        id: '52-gal_1',
+        sub: 'curling-bomb',
+        special: 'splattercolor-screen',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/26/S3_Weapon_Main_.52_Gal_Deco.png',
     },
     {
         type: 'SHOOTER',
