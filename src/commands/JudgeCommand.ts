@@ -4,7 +4,7 @@ import { locale } from '../locales';
 import { Command } from '../types/Command';
 import { SpecialWeapon, SubWeapon, Weapon, WeaponType } from '../types/Weapon';
 import { getRandomElem } from '../utils/array';
-import { BLASTERS, BRELLAS, BRUSHES, CHARGERS, DUALIES, ROLLERS, SHOOTERS, SLOSHERS, SPLATANAS, SPLATLINGS, STRINGERS } from '../weapons';
+import { ALL_WEAPONS } from '../weapons';
 
 const COLORS = [
     0x1a1aae,
@@ -29,36 +29,14 @@ const COLORS = [
     0x9025c6,
 ];
 
-const WEAPONS = [
-    ...SHOOTERS,
-    ...SPLATLINGS,
-    ...CHARGERS,
-    ...ROLLERS,
-    ...BLASTERS,
-    ...SLOSHERS,
-    ...DUALIES,
-    ...BRUSHES,
-    ...STRINGERS,
-    ...BRELLAS,
-    ...SPLATANAS,
-];
-
 export const JudgeCommand: Command = {
     command: new SlashCommandBuilder()
-        .setName(
-            'judge',
-        )
-        .setDescription(
-            locale('text.command.judge.description'),
-        )
+        .setName('judge')
+        .setDescription(locale('text.command.judge.description'))
         .addStringOption((option) =>
             option
-                .setName(
-                    locale('text.command.judge.question-0.name'),
-                )
-                .setDescription(
-                    locale('text.command.judge.question-0.description'),
-                )
+                .setName(locale('text.command.judge.question-0.name'))
+                .setDescription(locale('text.command.judge.question-0.description'))
                 .addChoices(
                     { name: locale('text.shooter'), value: 'SHOOTER' },
                     { name: locale('text.splatling'), value: 'SPLATLING' },
@@ -75,12 +53,8 @@ export const JudgeCommand: Command = {
         )
         .addStringOption((option) =>
             option
-                .setName(
-                    locale('text.command.judge.question-1.name'),
-                )
-                .setDescription(
-                    locale('text.command.judge.question-1.description'),
-                )
+                .setName(locale('text.command.judge.question-1.name'))
+                .setDescription(locale('text.command.judge.question-1.description'))
                 .addChoices(
                     { name: locale('sub-weapon.splat-bomb'), value: 'splat-bomb' },
                     { name: locale('sub-weapon.suction-bomb'), value: 'suction-bomb' },
@@ -100,12 +74,8 @@ export const JudgeCommand: Command = {
         )
         .addStringOption((option) =>
             option
-                .setName(
-                    locale('text.command.judge.question-2.name'),
-                )
-                .setDescription(
-                    locale('text.command.judge.question-2.description'),
-                )
+                .setName(locale('text.command.judge.question-2.name'))
+                .setDescription(locale('text.command.judge.question-2.description'))
                 .addChoices(
                     { name: locale('special-weapon.big-bubbler'), value: 'big-bubbler' },
                     { name: locale('special-weapon.booyah-bomb'), value: 'booyah-bomb' },
@@ -130,15 +100,11 @@ export const JudgeCommand: Command = {
         ),
 
     execute: async (interaction) => {
-        const main = interaction.options.get(locale('text.command.judge.question-0.name'))?.value as WeaponType | undefined;
-        const sub = interaction.options.get(locale('text.command.judge.question-1.name'))?.value as SubWeapon | undefined;
-        const special = interaction.options.get(locale('text.command.judge.question-2.name'))?.value as SpecialWeapon | undefined;
+        const mainWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-0.name'))] ?? []) as WeaponType[];
+        const subWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-1.name'))] ?? []) as SubWeapon[];
+        const specialWeaponTypes = ([interaction.options.getString(locale('text.command.judge.question-2.name'))] ?? []) as SpecialWeapon[];
 
-        const weapon = judge(
-            main ? [main] : [],
-            sub ? [sub] : [],
-            special ? [special] : [],
-        );
+        const weapon = judge(mainWeaponTypes, subWeaponTypes, specialWeaponTypes);
 
         if (weapon) {
             await interaction.reply({
@@ -173,7 +139,7 @@ export const JudgeCommand: Command = {
 };
 
 function judge(typeFilters: WeaponType[], subFilters: SubWeapon[], specialFilters: SpecialWeapon[]): Weapon | undefined {
-    const weapons = WEAPONS
+    const weapons = ALL_WEAPONS
         .filter((weapon) => {
             if (typeFilters.length === 0) {
                 return true;
