@@ -70,12 +70,14 @@ type Splatling =
     | 'mini-splatling_1'
     | 'heavy-splatling_0'
     | 'heavy-splatling_1'
-    | 'hydra-splatling'
+    | 'hydra-splatling_0'
+    | 'hydra-splatling_1'
     | 'ballpoint-splatling_0'
     | 'ballpoint-splatling_1'
     | 'nautilus_0'
     | 'nautilus_1'
-    | 'heavy-edit-splatling'
+    | 'heavy-edit-splatling_0'
+    | 'heavy-edit-splatling_1'
     | 'order-splatling-replica';
 
 type Charger =
@@ -89,7 +91,8 @@ type Charger =
     | 'e-liter_1'
     | 'e-liter-scope_0'
     | 'e-liter-scope_1'
-    | 'bamboozler-14'
+    | 'bamboozler-14_0'
+    | 'bamboozler-14_1'
     | 'goo-tuber_0'
     | 'goo-tuber_1'
     | 'snipewriter_0'
@@ -114,7 +117,8 @@ type Blaster =
     | 'luna-blaster_1'
     | 'blaster_0'
     | 'blaster_1'
-    | 'range-blaster'
+    | 'range-blaster_0'
+    | 'range-blaster_1'
     | 'clash-blaster_0'
     | 'clash-blaster_1'
     | 'rapid-blaster_0'
@@ -152,7 +156,8 @@ type Dualie =
     | 'tetra-dualies_0'
     | 'tetra-dualies_1'
     | 'order-dualie-replicas'
-    | 'douser-dualies';
+    | 'douser-dualies_0'
+    | 'douser-dualies_1';
 
 type Brush =
     | 'inkbrush_0'
@@ -168,7 +173,9 @@ type Stringer =
     | 'tri-stringer_1'
     | 'reef-lux_0'
     | 'reef-lux_1'
-    | 'order-stringer-replica';
+    | 'order-stringer-replica'
+    | 'wellstring_0'
+    | 'wellstring_1';
 
 type Brella =
     | 'splat-brella_0'
@@ -178,14 +185,17 @@ type Brella =
     | 'undercover-brella_0'
     | 'undercover-brella_1'
     | 'order-brella-replica'
-    | 'recycled-brella';
+    | 'recycled-brella_0'
+    | 'recycled-brella_1';
 
 type Splatana =
     | 'splatana-stamper_0'
     | 'splatana-stamper_1'
     | 'splatana-wiper_0'
     | 'splatana-wiper_1'
-    | 'order-splatana-replica';
+    | 'order-splatana-replica'
+    | 'decavitator_0'
+    | 'decavitator_1';
 
 export type SubWeapon =
     | 'splat-bomb'

@@ -31,10 +31,17 @@ export const BLASTERS: Weapon[] = [
     },
     {
         type: 'BLASTER',
-        id: 'range-blaster',
+        id: 'range-blaster_0',
         sub: 'suction-bomb',
         special: 'wave-breaker',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/1/1d/S3_Weapon_Main_Range_Blaster.png',
+    },
+    {
+        type: 'BLASTER',
+        id: 'range-blaster_1',
+        sub: 'splat-bomb',
+        special: 'kraken-royale',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/c/ce/S3_Weapon_Main_Custom_Range_Blaster.png',
     },
     {
         type: 'BLASTER',

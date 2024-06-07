@@ -52,9 +52,16 @@ export const BRELLAS: Weapon[] = [
     },
     {
         type: 'BRELLA',
-        id: 'recycled-brella',
+        id: 'recycled-brella_0',
         sub: 'angle-shooter',
         special: 'big-bubbler',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/d0/S3_Weapon_Main_Recycled_Brella_24_Mk_I.png',
+    },
+    {
+        type: 'BRELLA',
+        id: 'recycled-brella_1',
+        sub: 'toxic-mist',
+        special: 'triple-splashdown',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/9/94/S3_Weapon_Main_Recycled_Brella_24_Mk_II.png',
     },
 ];

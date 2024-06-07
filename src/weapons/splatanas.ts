@@ -36,4 +36,18 @@ export const SPLATANAS: Weapon[] = [
         special: 'zipcaster',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/b/b9/S3_Weapon_Main_Order_Splatana_Replica.png',
     },
+    {
+        type: 'SPLATANA',
+        id: 'decavitator_0',
+        sub: 'suction-bomb',
+        special: 'big-bubbler',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/c/c9/S3_Weapon_Main_Mint_Decavitator.png'
+    },
+    {
+        type: 'SPLATANA',
+        id: 'decavitator_1',
+        sub: 'splash-wall',
+        special: 'inkjet',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/5/52/S3_Weapon_Main_Charcoal_Decavitator.png'
+    }
 ];

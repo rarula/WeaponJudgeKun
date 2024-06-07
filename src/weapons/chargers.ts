@@ -73,10 +73,17 @@ export const CHARGERS: Weapon[] = [
     },
     {
         type: 'CHARGER',
-        id: 'bamboozler-14',
+        id: 'bamboozler-14_0',
         sub: 'autobomb',
         special: 'killer-wail-5.1',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/6/6d/S3_Weapon_Main_Bamboozler_14_Mk_I.png',
+    },
+    {
+        type: 'CHARGER',
+        id: 'bamboozler-14_1',
+        sub: 'fizzy-bomb',
+        special: 'super-chump',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/9/9f/S3_Weapon_Main_Bamboozler_14_Mk_II.png',
     },
     {
         type: 'CHARGER',

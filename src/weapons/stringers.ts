@@ -36,4 +36,18 @@ export const STRINGERS: Weapon[] = [
         special: 'killer-wail-5.1',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/24/S3_Weapon_Main_Order_Stringer_Replica.png',
     },
+    {
+        type: 'STRINGER',
+        id: 'wellstring_0',
+        sub: 'autobomb',
+        special: 'ultra-stamp',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/3/37/S3_Weapon_Main_Wellstring_V.png'
+    },
+    {
+        type: 'STRINGER',
+        id: 'wellstring_1',
+        sub: 'point-sensor',
+        special: 'wave-breaker',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/4/40/S3_Weapon_Main_Custom_Wellstring_V.png'
+    }
 ];

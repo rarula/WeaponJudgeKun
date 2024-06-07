@@ -4,7 +4,7 @@ import express, { Request, Response } from 'express';
 import { setupBot } from './bot';
 
 // バージョン情報
-export const VERSION = 'v4.1.2';
+export const VERSION = 'v5.0.0';
 
 // botを起動
 setupBot();

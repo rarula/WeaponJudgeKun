@@ -31,10 +31,17 @@ export const SPLATLINGS: Weapon[] = [
     },
     {
         type: 'SPLATLING',
-        id: 'hydra-splatling',
+        id: 'hydra-splatling_0',
         sub: 'autobomb',
         special: 'booyah-bomb',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/d/d1/S3_Weapon_Main_Hydra_Splatling.png',
+    },
+    {
+        type: 'SPLATLING',
+        id: 'hydra-splatling_1',
+        sub: 'ink-mine',
+        special: 'splattercolor-screen',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/f/f6/S3_Weapon_Main_Custom_Hydra_Splatling.png',
     },
     {
         type: 'SPLATLING',
@@ -66,10 +73,17 @@ export const SPLATLINGS: Weapon[] = [
     },
     {
         type: 'SPLATLING',
-        id: 'heavy-edit-splatling',
+        id: 'heavy-edit-splatling_0',
         sub: 'curling-bomb',
         special: 'tacticooler',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/24/S3_Weapon_Main_Heavy_Edit_Splatling.png',
+    },
+    {
+        type: 'SPLATLING',
+        id: 'heavy-edit-splatling_1',
+        sub: 'splat-bomb',
+        special: 'crab-tank',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/a/aa/S3_Weapon_Main_Heavy_Edit_Splatling_Nouveau.png',
     },
     {
         type: 'SPLATLING',

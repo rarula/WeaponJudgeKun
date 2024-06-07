@@ -80,9 +80,16 @@ export const DUALIES: Weapon[] = [
     },
     {
         type: 'DUALIE',
-        id: 'douser-dualies',
+        id: 'douser-dualies_0',
         sub: 'ink-mine',
         special: 'killer-wail-5.1',
         iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/2/2c/S3_Weapon_Main_Douser_Dualies_FF.png',
+    },
+    {
+        type: 'DUALIE',
+        id: 'douser-dualies_1',
+        sub: 'burst-bomb',
+        special: 'triple-inkstrike',
+        iconUrl: 'https://cdn.wikimg.net/en/splatoonwiki/images/f/f6/S3_Weapon_Main_Custom_Douser_Dualies_FF.png',
     },
 ];
